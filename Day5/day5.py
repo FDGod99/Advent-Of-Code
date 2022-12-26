@@ -9,7 +9,7 @@ eight=['C','G','Q','J','R']
 nine=['S','F','P','H','R','T','D','L']
 stacks = [one,two,three,four,five,six,seven,eight,nine]
 
-inputfile = open('day5.txt')
+inputfile = open("/Users/fdgod/Desktop/My Projects/Advent-Of-Code-2022/Day5/day5.txt")
 inputvals=[]
 for i in inputfile:
     if i[0]=='m':
@@ -21,4 +21,5 @@ for i in inputfile:
         inputvals.append(empty)
         
 
+for i in inputval:
 print(inputvals)

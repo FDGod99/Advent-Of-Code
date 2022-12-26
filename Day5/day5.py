@@ -21,5 +21,5 @@ for i in inputfile:
         inputvals.append(empty)
         
 
-for i in inputval:
-print(inputvals)
+for i in inputvals:
+    print(inputvals)

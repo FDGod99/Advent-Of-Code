@@ -2,7 +2,7 @@ import math as m
 import numpy as np
 item=[]
 pr=0
-inputfile = open("day3.txt")
+inputfile = open("/Users/fdgod/Desktop/My Projects/Advent-Of-Code-2022/Day3/day3.txt")
 
 #part
 # for i in inputfile:
@@ -25,10 +25,13 @@ inputfile = open("day3.txt")
 # print(pr)
 
 #part2
+total=0
 inputgg=[]
 for i in inputfile:
-    inputgg.append(i[:-2])
+    print(i)
+    inputgg.append(i[:-1])
 
+print(inputgg)
 listof3 = []
 
 for i in range(0,len(inputgg),3):
@@ -52,5 +55,15 @@ for i in listof3:
     c.append("temp")
     common.append(c[0])
 
-print(common)
+for i in common:
+    print(i)
+    if i != "temp":
+        if ord(i)>96:
+         total = total + ord(i) - 96
+         
+        elif ord(i)<96:
+            total = total + ord(i) - 38
+
+print(total)
+
 

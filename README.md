@@ -1,3 +1,3 @@
-# Advent-Of-Code-2022
+# My Solutions for Advent of Code 2022 (Pyhton)
 
-Test
+Here are my solutions:

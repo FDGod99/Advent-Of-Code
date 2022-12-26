@@ -19,6 +19,6 @@ for i in inputfile:
         empty.append(int(a[3]))
         empty.append(int(a[5]))
         inputvals.append(empty)
-        print(x)
+        
 
 print(inputvals)

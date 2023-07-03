@@ -1,5 +1,5 @@
 #Taking inputs
-inputfile = open("/Users/fdgod/Desktop/My Projects/Advent-Of-Code-2022/2015/day1_2015.txt", "r")
+inputfile = open("2015/Day1_2015/day1_2015.txt", "r")
 
 #part1
 counter = 0
@@ -9,7 +9,7 @@ for i in inputfile:
             counter = counter + 1
         elif j==')':
             counter = counter - 1
-#print(counter)
+print(counter)
 
 #part2
 counter = 0
@@ -25,4 +25,4 @@ for i in inputfile:
             elif j==')':
                 counter = counter - 1
 
-#print(counter2)
+print(counter2)

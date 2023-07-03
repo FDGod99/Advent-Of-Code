@@ -1,5 +1,5 @@
 #Taking inputs
-inputfile = open("/Users/fdgod/Desktop/My Projects/Advent-Of-Code-2022/2015/day2_2015.txt", "r")
+inputfile = open("2015/Day2_2015/day2_2015.txt", "r")
 
 #Creating Array from txt file
 input_array = []
